@@ -1,0 +1,12 @@
+{
+  "name": "babel-preset-es2015-node-auto",
+  "version": "0.0.1",
+  "description": "Auto select babel-preset-es2015-node version via node version",
+  "main": "index.js",
+  "author": "Jhen <developer@jhen.me>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015-node4": "^2.0.3",
+    "babel-preset-es2015-node5": "^1.2.0"
+  }
+}
