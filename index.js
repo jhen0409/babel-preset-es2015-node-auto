@@ -1,4 +1,4 @@
-const versions = ['4', '5'];
+const versions = ['4', '5', '6'];
 
 versions.forEach(version => {
   if (process.version.indexOf(`v${version}`) === 0) {
