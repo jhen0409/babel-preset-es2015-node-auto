@@ -6,6 +6,7 @@
 
 * [babel-preset-es2015-node4](https://github.com/jbach/babel-preset-es2015-node4)
 * [babel-preset-es2015-node5](https://github.com/alekseykulikov/babel-preset-es2015-node5)
+* [babel-preset-es2015-node6](https://github.com/jhen0409/babel-preset-es2015-node6)
 
 ## Install
 
