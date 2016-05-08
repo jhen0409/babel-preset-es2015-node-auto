@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-node-auto",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Auto select babel-preset-es2015-node version via node version",
   "main": "index.js",
   "repository": {
