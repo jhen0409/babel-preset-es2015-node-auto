@@ -1,10 +1,7 @@
 var versions = ['4', '5', '6'];
 var defaultPreset = 'babel-preset-es2015';
+var version = process.version[1];
 
-versions.forEach(function (version) {
-  if (process.version.indexOf('v' + version) === 0) {
-    module.exports = require(defaultPreset + '-node' + version);
-  } else {
-    module.exports = require(defaultPreset);
-  }
-});
+module.exports = require(
+  defaultPreset + (versions.indexOf(version) !== -1 ? '-node' + version : '')
+);
